@@ -401,7 +401,7 @@ h4 ,.meals p ,.feedback>div>h4 {
 }
 /* start Form */
 form {
-    margin: 2rem 0;
+    margin: 4rem 0;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -429,19 +429,21 @@ form input#message-text {
     height: 60px;
 }
 .submit {
-    width: 200px;
-    height: 60px;
+    width: 150px;
+    height: 50px;
     margin-top: 3rem;
     color: var(--color-white);
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 2rem; 
     background-color: #659e2d;
     font-size: 1.6rem;
     font-weight: 500;
     border-radius: 11px;
+    border: none;
 }
 .submit:hover {
     background-color:#fff;
     color: #659e2d;
+    border: 1px solid black;
 }
 /*end form */
 footer {
